@@ -1,0 +1,51 @@
+html,
+body {
+  font-size: 12px;
+  background: #fafafa;
+}
+.c-icon {
+  display: inline-block;
+  background: url("../img/cct_ui.png") 0 -999em no-repeat;
+  overflow: hidden;
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+  color: #666;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  transition: color 0.2s;
+}
+.el-breadcrumb {
+  height: 40px;
+  line-height: 40px !important;
+  font-size: 12px !important;
+  padding: 5px 0 !important;
+  color: #666;
+}
+.el-breadcrumb .is-link:hover {
+  color: #e61952 !important;
+}
+
+.el-pagination {
+  text-align: right;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  text-align: center;
+  margin-left: 6px;
+  cursor: pointer;
+  background: #e61952 !important;
+  border: 1px solid #e61952;
+  color: #fff;
+}
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+  border: 1px solid #e61952;
+  color: #e61952 !important;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active:hover {
+  color: #fff !important;
+}
