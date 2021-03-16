@@ -1,24 +1,6 @@
-# front-end
+# "零食小吃货"购物平台设计与实现
 
-## Project setup
+## 注意事项
 ```
-npm install
+未完，持续更新中...
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
